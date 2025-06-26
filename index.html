@@ -1,0 +1,130 @@
+<!-- Dentro da tag <head> -->
+<link rel="stylesheet" href="style.css" />
+
+<!-- Antes de fechar o <body> -->
+<script src="script.js"></script>
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel - Apresentação</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<body>
+    <!-- menu -->
+     <nav id="navbar">
+        <ul>
+            <li><a href="#inicio">Início</a>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+<!-- dark mode btn -->
+<button id="modo-escuro">🌙 Modo Escuro</button>
+
+<!-- inicio -->
+<header id="inicio" class="animado">
+    <h1>Olá, eu sou Daniel!</h1>
+    <p>Seja bem-vindo ao meu site pessoal.</p>
+</header>
+
+<!-- avaliações -->
+<section id="avaliacoes">
+  <h2>Avaliações do Meu Trabalho</h2>
+  
+  <div class="avaliacao">
+    <div class="estrelas">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <p>"O Daniel é um profissional dedicado e extremamente competente, entrega os projetos no prazo e tem um ótimo serviço de manuntenção. Recomendo muito!"</p>
+    <span>- Gordones Lanches</span>
+  </div>
+  
+  <div class="avaliacao">
+    <div class="estrelas">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>"Salvou minha vida, ótimo preço e um bom prazo de entrega, sem dúvidas o melhor."</p>
+    <span>- João Pescas</span>
+  </div>
+  
+  <div class="avaliacao">
+    <div class="estrelas">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+    </div>
+    <p>"Um excelente profissional, muito criativo e comunicativo. Voltarei a fazer negócios, recomendo demais!"</p>
+    <span>- Maggie LTDA.</span>
+  </div>
+</section>
+
+<!-- sobre -->
+ <section id="sobre" class="animado"
+     <h2>Sobre mim</h2>
+    <p>Sou estudante da Universidade UNIVILLE, cursando Análise e Desenvolvimento de Sistemas, tenho 20 anos de idade e atualmente estou morando em São Francisco do Sul - SC.</p>
+</section>
+
+<!-- skills -->
+ <section id="habilidades" class="animado"
+     <h2>Minhas Habilidades</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>R</li>
+    </ul>
+</section>
+
+<!-- contact -->
+<section id="contato" class="animado"
+    <h2>Contato:</h2>
+    <i class="fa-solid fa-envelope"></i>
+    </p>
+    <p>
+        <i class="fa-solid fa-at"></i>
+        <a href="mailto:danielribeirosalvador01@gmail.com">danielribeirosalvador01@gmail.com</a>
+    </p>
+    <p>
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com" target="_blank">Github</a>
+    </p>
+    <p>
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://br.linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+    <p>
+        <i class="fa-brands fa-instagram"></i>
+        <a href="https://www.instagram.com/daniwsz_/" target="_blank">Instagram</a>
+    </p>
+    <form action="https://formsubmit.co/danielribeirosalvador01@gmail.com" method="POST" target="_blank">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+
+        <p id="feedback" style="display: none; color: green; font-weight: bold;">Mensagem enviada com sucesso!
+        </p>
+    </form>
+</section>
+
+<!-- btn topo -->
+
+<button id="btn-topo" title="voltar ao topo">↑</button>
+
+<!-- js -->
+ 
+<script src="scrot.js"></script>
+</body>
+</html>
